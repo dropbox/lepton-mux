@@ -1,8 +1,13 @@
 [package]
 name = "lepton-mux"
 version = "0.0.1"
+description ="Allow multiple independent data to be serialized into a single stream and consumed by multiple threads"
 authors = ["Mike Liu <zliu@dropbox.com>", "Daniel Reiter Horn <danielrh@dropbox.com>", "The Lepton Mux Authors"]
 license = "BSD-3-Clause OR Apache-2.0"
+homepage = "https://github.com/dropbox/lepton-mux"
+readme = "README.md"
+keywords = ["custom", "safe", "nostd"]
+repository = "https://github.com/dropbox/lepton-mux"
 
 [dependencies]
 "alloc-no-stdlib" = "~1.3"
